@@ -1,6 +1,6 @@
 # Assessment Documentation
 
-##Table of Contents
+## Table of Contents
 
 -SummarizeNumbers.java methods
 
