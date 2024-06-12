@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Hello, in this repo you will find code that produces a comma delimited list of numbers, group them into a range when they are sequential.
+Hello, in this repo you will find code that produces a comma delimited list of numbers and group them into a range when they are sequential.
 
 ## SummarizeNumbers.java Methods
 
