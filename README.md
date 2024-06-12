@@ -20,5 +20,5 @@ Looking at the "collect" method, it designed to take a string of comma separated
 
 ![Code Explanation part1](Images/1.png)
 
-Looking at the summarizeCollection method, we use it to take the integers we got from the collect method.
+Looking at the summarizeCollection method, we use it to take the integers we got from the collect method and either separate in commas or put them in ranges if they are sequential. To do this i used a StringBuilder because strings are immutable. This means that once we create a string and assign a value to it and then change that value, the old value will still be retained in memory and the new value will be allocated a new place in the memory pool which can be very inefficient. Where as with String builders we can use that single memory location and modify it as we wish without affecting perfomance. The Time Complexity of this method is O(n) since it is affected by how much data we give it.
 ![Code Explanation part1](Images/2.png)
