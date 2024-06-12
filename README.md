@@ -4,7 +4,7 @@
 
 - Introduction
   
-- SummarizeNumbers.java Methods
+- SummarizeNumbers Methods
 
 - SummarizeNumbersTest Methods
 
@@ -12,7 +12,7 @@
 
 Hello, in this repo you will find code that produces a comma delimited list of numbers and group them into a range when they are sequential. The collection i chose to do so is a TreeSet. I chose thise because it is memory efficient since it automatically sorts all the input i give it and it avoids duplicates. This is good because it prevents us from writing code for sorting the input and checking for duplicates which prevents us from wasting memory and promotes code readability since we have fewer lines of code to deal with.
 
-## SummarizeNumbers.java Methods
+## SummarizeNumbers Methods
 
 In this class I implemented 4 methods, 2 of which are implemented from an Interface and 2 of which are Helper functions.
 
@@ -20,9 +20,12 @@ Looking at the "collect" method, it designed to take a string of comma separated
 
 ![Code Explanation part1](Images/1.png)
 
-Looking at the summarizeCollection method, we use it to take the integers we got from the collect method and either separate in commas or put them in ranges if they are sequential. To do this i used a StringBuilder because strings are immutable. This means that once we create a string and assign a value to it and then change that value, the old value will still be retained in memory and the new value will be allocated a new place in the memory pool which can be very inefficient. Whereas with String builders we can use that single memory location and modify it as we wish without affecting perfomance. I used a helper function to append our values into a string builder since we repeat the process twice this will help avoid code duplication. The Time Complexity of this method is O(n) since it is affected by how much data we give it.
+Looking at the summarizeCollection method, we use it to take the integers we got from the collect method and either separate in commas or put them in ranges if they are sequential. To do this i used a StringBuilder because strings are immutable. This means that once we create a string and assign a value to it and then change that value, the old value will still be retained in memory and the new value will be allocated a new place in the memory pool which can be very inefficient. Whereas with String builders we can use that single memory location and modify it as we wish without affecting perfomance. I used a helper function to append our values into a string builder since we repeat the process twice this will help avoid code duplication. The Time Complexity of this method is O(n) since it is affected by how much data we give it, the more data we give it the more the complexity grows linearly.
 
 ![Code Explanation part1](Images/2.png)
 
 Helper Functions:
+
 ![Code Explanation part1](Images/3.png)
+
+## SummarizeNumbersTest Methods
