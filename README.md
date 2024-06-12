@@ -2,9 +2,15 @@
 
 ## Table of Contents
 
+- Introduction
+
 - SummarizeNumbers.java Methods
 
 - SummarizeNumbersTest Methods
+
+## Introduction
+
+Hello, in this repo you will find code that produces a comma delimited list of numbers, group them into a range when they are sequential.
 
 ## SummarizeNumbers.java Methods
 
