@@ -29,3 +29,5 @@ Helper Functions:
 ![Code Explanation part1](Images/3.png)
 
 ## SummarizeNumbersTest Methods
+
+![Code Explanation part1](Images/4.png)
