@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Hello, in this repo you will find code that produces a comma delimited list of numbers and group them into a range when they are sequential. The collection i chose to do so is a TreeSet. I chose thise because it is memory efficient since it automatically sorts all the input i give it and it avoids duplicates. This is good because it prevents us from writing code for sorting the input and checking for duplicates which prevents us from wasting memory and promotes code readability since we have fewer lines of code to deal with.
+Hello, in this repo you will find code that produces a comma delimited list of numbers and group them into a range when they are sequential. The collection i chose for this is a TreeSet. I chose thise because it is memory efficient since it automatically sorts all the input i give it and it avoids duplicates. This is good because it prevents us from writing code for sorting the input and checking for duplicates which prevents us from wasting memory and promotes code readability since we have fewer lines of code to deal with.
 
 ## SummarizeNumbers Methods
 
