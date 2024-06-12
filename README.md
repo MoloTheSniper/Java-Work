@@ -16,9 +16,9 @@ Hello, in this repo you will find code that produces a comma delimited list of n
 
 ## SummarizeNumbers Methods
 
-In this class I implemented 4 methods, 2 of which are implemented from an Interface and 2 of which are Helper functions.
+In the SummarizeNumbers class I implemented 4 methods, 2 of which are implemented from an Interface and 2 of which are Helper functions.
 
-Looking at the "collect" method, it designed to take a string of comma separated numbers and convert them into integers. I used a helper function called isIntger to pass our string to see if we have actual numbers in the string. Since we are using the TreeSet to sort data and to make sure there is no duplication, it has a Time Complexity of O(nlogn). I then proceed to demonstrate my knowledge of Java 8 features by using both Method References and lambda expression while making use of the Stream API to process the input into integer values.
+Looking at the "collect" method, it is designed to take a string of comma separated numbers and convert them into integers. I used a helper function called isIntger to pass our string to see if we have actual numbers in the string. Since we are using the TreeSet to sort data and to make sure there is no duplication, it has a Time Complexity of O(nlogn). I then proceed to demonstrate my knowledge of Java 8 features by using both Method References and lambda expression while making use of the Stream API to process the input into integer values.
 
 ![Code Explanation part1](Images/1.png)
 
