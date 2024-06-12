@@ -29,5 +29,6 @@ Helper Functions:
 ![Code Explanation part1](Images/3.png)
 
 ## SummarizeNumbersTest Methods
+For the SummarizeNumbersTest.java file, i implemented unit tests for each method i made to ensure that the code i wrote is reliable and does not break if given different cases to work with. I first tested how it works with the correct input, i then implemented a test of what happens when we use incorrect input and i then tested what happens if we dont give it input at all. Ofcourse i had to add some more functionality when i realized my test were failing.
 
 ![Code Explanation part1](Images/4.png)
