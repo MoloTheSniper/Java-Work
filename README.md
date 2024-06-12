@@ -2,8 +2,10 @@
 
 ## Table of Contents
 
-- SummarizeNumbers.java methods
+- SummarizeNumbers.java Methods
 
-- SummarizeNumbersTest methods
+- SummarizeNumbersTest Methods
+
+## SummarizeNumbers.java Methods
 
 ![Code Explanation part1](Images/1.png)
